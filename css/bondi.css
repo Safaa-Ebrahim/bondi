@@ -138,3 +138,14 @@ body {
    background-color: var(--green-color);
 }
 /* End Team  */
+/* Start Subscribe */
+.subscribe{
+  background-color: var(--btn-color-alt);
+}
+.subscribe input[type="text"]:focus{
+  outline: none;
+}
+.subscribe input[type="submit"]:hover{
+    background-color: var(--red-color);
+}
+/* End Subscribe */
