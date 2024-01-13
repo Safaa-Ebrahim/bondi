@@ -43,20 +43,41 @@
                 class="nav-link text-light p-2 p-lg-3 active"
                 aria-current="page"
                 href="#"
+                onclick="setActiveLink(this)"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light p-2 p-lg-3" href="#">Services</a>
+              <a
+                class="nav-link text-light p-2 p-lg-3"
+                href="#services"
+                onclick="setActiveLink(this)"
+                >Services</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light p-2 p-lg-3" href="#">Portfolio</a>
+              <a
+                class="nav-link text-light p-2 p-lg-3"
+                href="#portfolio"
+                onclick="setActiveLink(this)"
+                >Portfolio</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light p-2 p-lg-3" href="#">About</a>
+              <a
+                class="nav-link text-light p-2 p-lg-3"
+                href="#about"
+                onclick="setActiveLink(this)"
+                >About</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light p-2 p-lg-3" href="#">Contact</a>
+              <a
+                class="nav-link text-light p-2 p-lg-3"
+                href="#contact"
+                onclick="setActiveLink(this)"
+                >Contact</a
+              >
             </li>
           </ul>
           <div class="search px-3 d-none d-lg-block">
@@ -85,7 +106,7 @@
     </div>
     <!-- End Landing -->
     <!-- Start Features -->
-    <div class="features text-center py-5">
+    <div class="features text-center py-5" id="services">
       <div class="container">
         <div class="main-title my-5 position-relative">
           <img class="mb-4" src="images/title.png" alt="title" />
@@ -149,7 +170,7 @@
     </div>
     <!-- End Features -->
     <!-- Start Work -->
-    <div class="our-work text-center py-5">
+    <div class="our-work text-center py-5" id="portfolio">
       <div class="container">
         <div class="main-title my-5 position-relative">
           <img class="mb-4" src="images/title.png" alt="title" />
@@ -230,17 +251,25 @@
           </div>
         </div>
         <div class="d-flex justify-content-center mt-5">
-          <a class="btn rounded-pill text-white py-2 px-3 main-btn text-uppercase" href="#"
+          <a
+            class="btn rounded-pill text-white py-2 px-3 main-btn text-uppercase"
+            href="#"
             >I Want More</a
           >
         </div>
       </div>
     </div>
     <!-- Start Work -->
+    <!-- Start Stuff -->
+    <div class="stuff">
+      <div class="container"></div>
+    </div>
+    <!-- End  Stuff-->
 
     <!-- Bootstrap JS File -->
     <script src="js/bootstrap.bundle.min.js"></script>
     <!-- Font Awesomw Library JS File -->
     <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
