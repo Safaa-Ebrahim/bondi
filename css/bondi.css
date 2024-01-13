@@ -7,8 +7,15 @@
   --yellow-color: #ffc400;
   --section-color: #eff7fa;
 }
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
 body {
   font-family: "Roboto", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
 }
 /* Shared Class */
 .dark-bg {
@@ -126,26 +133,50 @@ body {
 }
 /* End Our Work */
 /* Start Stuff  */
-.stuff .description{
-    max-width: 500px;
+.stuff .description {
+  max-width: 500px;
 }
 /* End Stuff  */
 /* Start Team */
-.team{
-    background-color: var(--section-color);
+.team {
+  background-color: var(--section-color);
 }
-.team .box h4{
-   background-color: var(--green-color);
+.team .box h4 {
+  background-color: var(--green-color);
 }
 /* End Team  */
 /* Start Subscribe */
-.subscribe{
+.subscribe {
   background-color: var(--btn-color-alt);
 }
-.subscribe input[type="text"]:focus{
+.subscribe input[type="text"]:focus {
   outline: none;
 }
-.subscribe input[type="submit"]:hover{
-    background-color: var(--red-color);
+.subscribe input[type="submit"]:hover {
+  background-color: var(--red-color);
 }
 /* End Subscribe */
+/* Start Footer */
+.footer .copyright > span {
+  color: var(--green-color);
+}
+.footer .copyright div > span {
+  color: var(--yellow-color);
+}
+.footer .contact ul svg {
+  width: 20px;
+  height: 20px;
+}
+.footer ul a .facebook {
+  background-color: #1877f2;
+}
+.footer svg.twitter {
+  background-color: #1da1f2;
+}
+.footer svg.linkedin {
+  background-color: #0077b5;
+}
+.footer .youtube {
+  background-color: #ff0000;
+}
+/* End Footer */
